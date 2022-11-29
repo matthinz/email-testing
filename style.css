@@ -1,0 +1,37 @@
+html {
+  background-color: #ddd;
+  font-family: "Open Sans";
+}
+
+body {
+  background-color: #fff;
+  margin: 2em auto;
+  max-width: 600px;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.motto {
+  font-style: italic;
+}
+
+.coupon {
+  display: block;
+  margin: 1em auto;
+  width: 400px;
+}
+
+.footer {
+  color: #ccc;
+  font-size: 0.8em;
+}

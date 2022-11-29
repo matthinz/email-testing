@@ -1,0 +1,11 @@
+{
+  "name": "sample-emails",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matt Hinz <matthinz@gmail.com>",
+  "private": true,
+  "devDependencies": {
+    "prettier": "2.8.0",
+    "serve": "^14.1.2"
+  }
+}
