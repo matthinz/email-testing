@@ -5,6 +5,7 @@ services:
     image: namshi/smtp
     environment:
       - "RELAY_NETWORKS=:10.0.0.0/8:127.0.0.0/8:172.0.0.0/8"
+      - "PORT=1025"
       - "DISABLE_IPV6=1"
     ports:
-      - "1025:25"
+      - "1025:1025"
