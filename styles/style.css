@@ -111,3 +111,15 @@ h2 {
   display: block;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 700px) {
+  .logo {
+    display: block !important;
+    margin: 1em auto !important;
+  }
+
+  h1 {
+    width: auto !important;
+    text-align: center !important;
+  }
+}
