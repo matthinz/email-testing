@@ -1,0 +1,113 @@
+:root {
+  --blue: #004b9b;
+  --light-blue: #c1dfff;
+
+  --gray: #ddd;
+  --light-gray: #eee;
+}
+
+html {
+  background-color: var(--gray);
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0;
+}
+
+.header {
+  background-color: var(--light-gray);
+  margin: 0;
+  padding: 0.5em;
+}
+
+.nav {
+  align-items: center;
+  background: var(--blue);
+  display: flex;
+  margin: -0.5em -0.5em 0 -0.5em;
+}
+
+.nav .us-flag {
+  width: 16px;
+  height: 11px;
+  margin: 0 1em;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 0.8em;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+}
+
+.logo {
+  display: inline-block;
+  margin: 0.5em;
+
+  vertical-align: middle;
+  width: 100px;
+}
+
+h1,
+h2 {
+  font-family: Georgia;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 1em;
+  width: calc(500px - 3em);
+  vertical-align: middle;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.main {
+  background: #fff;
+  padding: 1em;
+}
+
+.button img {
+  display: block;
+  margin: 0 auto;
+}
+
+.aside {
+  background: var(--light-blue);
+  padding: 2em;
+  font-size: 0.9em;
+}
+
+.footer {
+  color: #ccc;
+  font-size: 0.8em;
+  padding: 2em 1em;
+}
+
+.footer-logo {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
