@@ -22,12 +22,13 @@ async function run(params: string[]) {
   console.log(url);
 }
 
-async function uploadEmailTemplate(
+export async function uploadEmailTemplate(
   templateFile: string,
   bucket: string,
   dir: string
 ): Promise<{
   url: string;
+  html: string;
 }> {
   const contents = (await fs.readFile(templateFile)).toString("utf-8");
 
@@ -71,6 +72,7 @@ async function uploadEmailTemplate(
 
   return {
     url: [baseUrl, key].join("/"),
+    html: tweakedContents,
   };
 }
 
