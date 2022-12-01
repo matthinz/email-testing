@@ -112,7 +112,7 @@ h2 {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .logo {
     display: block !important;
     margin: 1em auto !important;
@@ -122,4 +122,185 @@ h2 {
     width: auto !important;
     text-align: center !important;
   }
+}
+
+.dummy-styles-that-are-not-applied-001 {
+  border-top-width: 0.000000000000000000000000000000000000001px;
+  border-bottom-width: 0.000000000000000000000000000000000000001px;
+  border-left-width: 0.000000000000000000000000000000000000001px;
+  border-right-width: 0.000000000000000000000000000000000000001px;
+  color: rgba(1, 2, 3, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: auto;
+  text-decoration: auto;
+  margin-bottom: 0.000000000000000000000001px;
+  margin-top: 0.000000000000000000000001px;
+  margin-left: 0.000000000000000000000001px;
+  margin-right: 0.000000000000000000000001px;
+  padding-bottom: 0.000000000000000000000001px;
+  padding-top: 0.000000000000000000000001px;
+  padding-left: 0.000000000000000000000001px;
+  padding-right: 0.000000000000000000000001px;
+}
+.dummy-styles-that-are-not-applied-001 {
+  border-top-width: 0.000000000000000000000000000000000000001px;
+  border-bottom-width: 0.000000000000000000000000000000000000001px;
+  border-left-width: 0.000000000000000000000000000000000000001px;
+  border-right-width: 0.000000000000000000000000000000000000001px;
+  color: rgba(1, 2, 3, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: auto;
+  text-decoration: auto;
+  margin-bottom: 0.000000000000000000000001px;
+  margin-top: 0.000000000000000000000001px;
+  margin-left: 0.000000000000000000000001px;
+  margin-right: 0.000000000000000000000001px;
+  padding-bottom: 0.000000000000000000000001px;
+  padding-top: 0.000000000000000000000001px;
+  padding-left: 0.000000000000000000000001px;
+  padding-right: 0.000000000000000000000001px;
+}
+.dummy-styles-that-are-not-applied-001 {
+  border-top-width: 0.000000000000000000000000000000000000001px;
+  border-bottom-width: 0.000000000000000000000000000000000000001px;
+  border-left-width: 0.000000000000000000000000000000000000001px;
+  border-right-width: 0.000000000000000000000000000000000000001px;
+  color: rgba(1, 2, 3, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: auto;
+  text-decoration: auto;
+  margin-bottom: 0.000000000000000000000001px;
+  margin-top: 0.000000000000000000000001px;
+  margin-left: 0.000000000000000000000001px;
+  margin-right: 0.000000000000000000000001px;
+  padding-bottom: 0.000000000000000000000001px;
+  padding-top: 0.000000000000000000000001px;
+  padding-left: 0.000000000000000000000001px;
+  padding-right: 0.000000000000000000000001px;
+}
+.dummy-styles-that-are-not-applied-001 {
+  border-top-width: 0.000000000000000000000000000000000000001px;
+  border-bottom-width: 0.000000000000000000000000000000000000001px;
+  border-left-width: 0.000000000000000000000000000000000000001px;
+  border-right-width: 0.000000000000000000000000000000000000001px;
+  color: rgba(1, 2, 3, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: auto;
+  text-decoration: auto;
+  margin-bottom: 0.000000000000000000000001px;
+  margin-top: 0.000000000000000000000001px;
+  margin-left: 0.000000000000000000000001px;
+  margin-right: 0.000000000000000000000001px;
+  padding-bottom: 0.000000000000000000000001px;
+  padding-top: 0.000000000000000000000001px;
+  padding-left: 0.000000000000000000000001px;
+  padding-right: 0.000000000000000000000001px;
+}
+.dummy-styles-that-are-not-applied-001 {
+  border-top-width: 0.000000000000000000000000000000000000001px;
+  border-bottom-width: 0.000000000000000000000000000000000000001px;
+  border-left-width: 0.000000000000000000000000000000000000001px;
+  border-right-width: 0.000000000000000000000000000000000000001px;
+  color: rgba(1, 2, 3, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: auto;
+  text-decoration: auto;
+  margin-bottom: 0.000000000000000000000001px;
+  margin-top: 0.000000000000000000000001px;
+  margin-left: 0.000000000000000000000001px;
+  margin-right: 0.000000000000000000000001px;
+  padding-bottom: 0.000000000000000000000001px;
+  padding-top: 0.000000000000000000000001px;
+  padding-left: 0.000000000000000000000001px;
+  padding-right: 0.000000000000000000000001px;
+}
+.dummy-styles-that-are-not-applied-001 {
+  border-top-width: 0.000000000000000000000000000000000000001px;
+  border-bottom-width: 0.000000000000000000000000000000000000001px;
+  border-left-width: 0.000000000000000000000000000000000000001px;
+  border-right-width: 0.000000000000000000000000000000000000001px;
+  color: rgba(1, 2, 3, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: auto;
+  text-decoration: auto;
+  margin-bottom: 0.000000000000000000000001px;
+  margin-top: 0.000000000000000000000001px;
+  margin-left: 0.000000000000000000000001px;
+  margin-right: 0.000000000000000000000001px;
+  padding-bottom: 0.000000000000000000000001px;
+  padding-top: 0.000000000000000000000001px;
+  padding-left: 0.000000000000000000000001px;
+  padding-right: 0.000000000000000000000001px;
+}
+.dummy-styles-that-are-not-applied-001 {
+  border-top-width: 0.000000000000000000000000000000000000001px;
+  border-bottom-width: 0.000000000000000000000000000000000000001px;
+  border-left-width: 0.000000000000000000000000000000000000001px;
+  border-right-width: 0.000000000000000000000000000000000000001px;
+  color: rgba(1, 2, 3, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: auto;
+  text-decoration: auto;
+  margin-bottom: 0.000000000000000000000001px;
+  margin-top: 0.000000000000000000000001px;
+  margin-left: 0.000000000000000000000001px;
+  margin-right: 0.000000000000000000000001px;
+  padding-bottom: 0.000000000000000000000001px;
+  padding-top: 0.000000000000000000000001px;
+  padding-left: 0.000000000000000000000001px;
+  padding-right: 0.000000000000000000000001px;
+}
+.dummy-styles-that-are-not-applied-001 {
+  border-top-width: 0.000000000000000000000000000000000000001px;
+  border-bottom-width: 0.000000000000000000000000000000000000001px;
+  border-left-width: 0.000000000000000000000000000000000000001px;
+  border-right-width: 0.000000000000000000000000000000000000001px;
+  color: rgba(1, 2, 3, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: auto;
+  text-decoration: auto;
+  margin-bottom: 0.000000000000000000000001px;
+  margin-top: 0.000000000000000000000001px;
+  margin-left: 0.000000000000000000000001px;
+  margin-right: 0.000000000000000000000001px;
+  padding-bottom: 0.000000000000000000000001px;
+  padding-top: 0.000000000000000000000001px;
+  padding-left: 0.000000000000000000000001px;
+  padding-right: 0.000000000000000000000001px;
+}
+.dummy-styles-that-are-not-applied-001 {
+  border-top-width: 0.000000000000000000000000000000000000001px;
+  border-bottom-width: 0.000000000000000000000000000000000000001px;
+  border-left-width: 0.000000000000000000000000000000000000001px;
+  border-right-width: 0.000000000000000000000000000000000000001px;
+  color: rgba(1, 2, 3, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: auto;
+  text-decoration: auto;
+  margin-bottom: 0.000000000000000000000001px;
+  margin-top: 0.000000000000000000000001px;
+  margin-left: 0.000000000000000000000001px;
+  margin-right: 0.000000000000000000000001px;
+  padding-bottom: 0.000000000000000000000001px;
+  padding-top: 0.000000000000000000000001px;
+  padding-left: 0.000000000000000000000001px;
+  padding-right: 0.000000000000000000000001px;
+}
+.dummy-styles-that-are-not-applied-001 {
+  border-top-width: 0.000000000000000000000000000000000000001px;
+  border-bottom-width: 0.000000000000000000000000000000000000001px;
+  border-left-width: 0.000000000000000000000000000000000000001px;
+  border-right-width: 0.000000000000000000000000000000000000001px;
+  color: rgba(1, 2, 3, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: auto;
+  text-decoration: auto;
+  margin-bottom: 0.000000000000000000000001px;
+  margin-top: 0.000000000000000000000001px;
+  margin-left: 0.000000000000000000000001px;
+  margin-right: 0.000000000000000000000001px;
+  padding-bottom: 0.000000000000000000000001px;
+  padding-top: 0.000000000000000000000001px;
+  padding-left: 0.000000000000000000000001px;
+  padding-right: 0.000000000000000000000001px;
 }

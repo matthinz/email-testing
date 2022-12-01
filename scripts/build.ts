@@ -7,25 +7,54 @@ run(...process.argv.slice(2)).catch((err) => {
   console.error(err);
 });
 
-function run(sourceFile?: string, destFile?: string): Promise<void> {
-  if (!sourceFile || !destFile) {
-    throw new Error("Usage: build.ts sourceFile destFile");
+async function run(sourceFile?: string, destDir?: string): Promise<void> {
+  if (!sourceFile || !destDir) {
+    throw new Error("Usage: build.ts sourceFile destDir");
   }
+  await build(sourceFile, destDir);
+}
 
+export async function build(
+  file: string,
+  outDir: string
+): Promise<{ normal: string; inlined: string }> {
   const juiceOptions: juice.Options = {
     webResources: {
       images: 0,
     },
   };
 
+  try {
+    await fs.mkdir(outDir, { recursive: true });
+  } catch (err) {}
+
+  const normal = path.join(outDir, path.basename(file));
+  await fs.writeFile(
+    normal,
+    await juiceFile(file, {
+      ...juiceOptions,
+      applyStyleTags: false,
+      removeStyleTags: false,
+    })
+  );
+
+  const inlined = path.join(
+    outDir,
+    path.basename(file).replace(/(\..+)$/, "-inlined$1")
+  );
+  await fs.writeFile(inlined, await juiceFile(file, juiceOptions));
+
+  return { normal, inlined };
+}
+
+function juiceFile(file: string, options: juice.Options): Promise<string> {
   return new Promise((resolve, reject) => {
-    juice.juiceFile(sourceFile, juiceOptions, (err, html) => {
+    juice.juiceFile(file, options, (err, html) => {
       if (err) {
         reject(err);
         return;
       }
-
-      fs.writeFile(destFile, html).then(resolve, reject);
+      resolve(html);
     });
   });
 }
